@@ -1,5 +1,5 @@
 import './cowList.scss';
-import cowData from '../helpers/cows';
+import cowData from '../../helpers/data/cows';
 
 const buildCows = () => {
   cowData.getCows()
